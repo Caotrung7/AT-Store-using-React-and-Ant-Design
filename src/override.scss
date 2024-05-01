@@ -1,0 +1,43 @@
+.App {
+    .ant-typography {
+        font-size: 20px;
+        color: red;
+        font-weight: bold;
+    }
+
+    .welcome-message {
+        .ant-typography {
+            color: green;
+            font-size: 30px;
+        }
+    }
+
+    .ant-input {
+        border-color: green;
+    }
+    .ant-input::placeholder {
+        color: black;
+    }
+
+    .dataPicker {
+        border-color: green;
+    }
+}
+
+.datePickerPopup {
+    .ant-picker-cell-inner {
+        color: red;
+    }
+}
+
+.customInput1 {
+    .ant-input {
+        color: blue;
+    }
+}
+
+.customInput2 {
+    .ant-input {
+        color: red;
+    }
+}
